@@ -43,4 +43,7 @@
   .section6 {
     padding: 0 12px;
   }
+  .section7 .up-btn {
+    margin-right: 40px;
+  }
 }
