@@ -21,7 +21,7 @@
 html {
   scroll-behavior: smooth;
   scrollbar-width: none;
-
+  padding: 1.5vw;
 }
 
 ::-webkit-scrollbar {
@@ -43,11 +43,6 @@ img {
 
 .rotate45 {
   transform: rotate(-45deg);
-}
-
-.upBTN {
-  border: 1px solid black!important;
-  color: black;
 }
 
 .rotate90 {
