@@ -7,6 +7,7 @@ function toSection1() {
 }
 
 function setTwoImgsStyle() {
+
     const img_container_width = document.getElementById('left-part-container').offsetWidth
     const img1_width = document.getElementById('img1').offsetWidth
     const img1_height = 1.33 * img1_width
@@ -16,6 +17,10 @@ function setTwoImgsStyle() {
 
     document.getElementById('img-container').style.height = `${container_height}px`;
     document.getElementById('img2').style.top = `${container_height - img2_height}px`;
+
+    const img3Width = document.getElementById('img3').offsetWidth
+    document.getElementById('img3').style.height = `${img3Width * 1.48}px`;
+
 }
 
 window.onresize = setTwoImgsStyle
