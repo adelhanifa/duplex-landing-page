@@ -7,20 +7,16 @@ function toSection1() {
 }
 
 function setTwoImgsStyle() {
-
+    // set the to pic above each other 
     const img_container_width = document.getElementById('left-part-container').offsetWidth
-    const img1_width = document.getElementById('img1').offsetWidth
-    const img1_height = 1.33 * img1_width
-    const img2_width = document.getElementById('img2').offsetWidth
-    const img2_height = img2_width
-    const container_height = img1_height + (img1_width + img2_width - img_container_width)
+    const img5_width = document.getElementById('img5').offsetWidth
+    const img5_height = 1.33 * img5_width
+    const img6_width = document.getElementById('img6').offsetWidth
+    const img6_height = img6_width
+    const container_height = img5_height + (img5_width + img6_width - img_container_width)
 
     document.getElementById('img-container').style.height = `${container_height}px`;
-    document.getElementById('img2').style.top = `${container_height - img2_height}px`;
-
-    const img3Width = document.getElementById('img3').offsetWidth
-    document.getElementById('img3').style.height = `${img3Width * 1.48}px`;
-
+    document.getElementById('img6').style.top = `${container_height - img6_height}px`;
 }
 
 window.onresize = setTwoImgsStyle
