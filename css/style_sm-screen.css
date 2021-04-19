@@ -5,7 +5,6 @@
   .sub-heading {
     font-size: 25px;
     letter-spacing: 3px;
-    font-family: 'Bellefair';
   }
   .section1 {
     height: 650px;
@@ -22,7 +21,7 @@
     font-size: 40px;
     line-height: 52px;
     margin-top: 15px;
-    width: 85%;
+    width: 70%;
   }
   .section2 .left-part {
     width: 100%;
